@@ -1,0 +1,1155 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+body{
+    background-color: rgb(238, 237, 237);
+}
+
+.navbar{
+    height: 60px;
+    background-color: #101820;
+    color: white;
+    display: flex;
+}
+
+.nav-logo{
+    margin-left: 15px;
+    height: 50px;
+    width: 114px;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+    border-radius: 5%;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav-addressbar{
+    height: 60px;
+    width: 80.63px;
+    display: flex;
+    margin-left: 10px;
+}
+
+
+
+.loc{
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.loc-logo{
+    height: 50px;
+    width: 12px;
+    padding-top: 18px ;
+}
+
+.nav-address{
+    height: 50px;
+    width: 52.63px;
+    margin-left: 5px;
+}
+
+#deliverto{
+    margin-top: 9px;
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+#india{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-search{
+    height: 60px;
+    width: 850.52px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.sea{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    margin: 10px 0px 0px 0px;
+}
+
+#search-options{
+    width: 52px;
+    border: none;
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+    background-color: #e6e6e6;
+    color: #656565;
+    text-align: center;
+    font-size: 12px;
+}
+
+#input{
+    width: 746.52px;
+    font-size: 16px;
+    border: none;
+}
+
+#input:hover{
+    border: 2px solid orange;
+}
+
+.search{
+    background-color: rgb(246, 192, 91);
+    width: 45px;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.bgcolor:hover{
+    background-color: rgb(255, 166, 0);
+}
+
+.nav-lang{
+    height: 55px;
+    width: 65px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.lang{
+    height: 50px;
+    width: 65px;
+    display: flex;
+    margin-top: 5px;
+}
+
+#usflag{
+    padding-top: 25%;
+}
+#flag{
+    height: 25px;
+    width: 22.69px;
+}
+
+#llang{
+    height: 15px;
+    width: 18.38px;
+    padding-top: 30%;
+    border: none;
+}
+
+#selectlang{
+    background-color: #101820;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    padding-left: 5px;
+}
+
+.nav-signin{
+    height: 40px;
+    width: 113.52px;
+    margin-left: 20px;
+}
+
+.signin{
+    height: 40px;
+    width: 113.52px;
+    padding-top: 5%;
+    margin-top: 10px;
+}
+
+#hello{
+font-size: 12px;
+}
+#account{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.rando{
+    height: 40px;
+    width: 76.95px;
+    margin-left: 10px;
+}
+
+.returnand{
+    height: 40px;
+    width: 76.95px;
+    padding-top: 5%;
+    margin-top: 10px;
+}
+
+#return{
+font-size: 12px;
+}
+#order{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.cart{
+    height: 40px;
+    width: 64px;
+    display: flex;
+}
+
+.cartlogo{
+    height: 40px;
+    width: 64px;
+    margin-top: 10px;
+    display: flex;
+}
+
+#carta{
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+#cartu{
+    font-size: 14px;
+    font-weight: bolder;
+    padding-top: 17px;
+}
+
+.nav-below{
+    height: 41px;
+    width: 100%;
+    background-color: #252B37;
+    color: white;
+    display: flex;
+}
+
+.cont{
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 14px;
+    display: flex;
+}
+
+
+#mother{
+    width: 100%;
+}
+
+.deal{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 94.813px;
+    height: 39px;
+}
+.deala{
+    width: 84.813px;
+    height: 12px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding: 8px 5px 8px 5px;
+}
+
+.reg{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 71.79px;
+    height: 39px;
+}
+.rega{
+    width: 61.79px;
+    height: 12px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding: 8px 5px 8px 5px;
+}
+
+
+.prime{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 97.09px;
+    height: 39px;
+}
+.primea{
+    width: 87.09px;
+    height: 12px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding: 8px 5px 8px 5px;
+}
+
+.gift{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 82.99px;
+    height: 39px;
+}
+.gifta{
+    width: 72.99px;
+    height: 12px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding: 8px 5px 8px 5px;
+}
+
+.cust{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 130.34px;
+    height: 39px;
+}
+.custa{
+    width: 120.34px;
+    height: 12px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding: 8px 5px 8px 5px;
+}
+
+.sell{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 43.37px;
+    height: 39px;
+}
+.sella{
+    width: 33.37px;
+    height: 12px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding: 8px 5px 8px 5px;
+}
+
+.all{
+    width: 46.41px;
+    height: 39px;
+}
+.alla{
+    width: 33.37px;
+    height: 12px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding: 8px 5px 8px 5px;
+
+}
+.menubar{
+    width: 23.41px;
+    height: 39px;
+}
+.menu{
+    width: 13.41px;
+    height: 12px;
+    font-size: 22px;
+    margin-bottom: 6px;
+    padding: 8px 5px 8px 5px;
+}
+.nava{
+    display: flex;
+    margin-left: 20px;
+}
+
+
+.mmm{
+    padding-right: 5px;
+    width: 46.41px;
+    height: 39px;
+    display: flex;
+}
+
+
+.fade-image {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .fade-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background: linear-gradient(
+      to bottom,
+      rgba(255,255,255,0) 50%, /* 0% transparent until 70% height */
+      rgb(238, 237, 237) 100% /* fade to white at the bottom */
+    );
+    
+    pointer-events: none;
+  }
+  
+
+
+  .boxes{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 1045px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .box{
+    display: flex;
+    height: 860px;
+    width: 1450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+
+  }
+
+  .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 {
+    width: 342.5px;
+    height: 385px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+  }
+
+.gaming{
+    font-weight: bolder;
+    font-size: 21px;
+    width: 302.5px;
+    height: 27.297px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+#headset{
+    display: flex;
+    position: absolute;
+    left: 26px;
+    width: 185.758px;
+    height: 115.852px;
+    
+}
+
+#keyboard{
+    display: flex;
+    position: absolute;
+    left: 180px;
+    width: 185.758px;
+    height: 115.852px;
+    
+}
+
+#mouse{
+    display: flex;
+    position: absolute;
+    left: 26px;
+    width: 185.758px;
+    height: 115.852px;
+    top: 240px;
+}
+
+#chair{
+    display: flex;
+    position: absolute;
+    left: 180px;
+    width: 185.758px;
+    height: 115.852px;
+    top: 240px;
+}
+
+#hp{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    font-size: 12px;
+}
+
+#kp{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 12px;
+}
+#mp{
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    font-size: 12px;
+}
+#cp{
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left: 200px;
+    font-size: 12px;
+}
+
+#sp{
+    color: #2162a1;
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    font-size: 13px;
+}
+
+
+#ha{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 12px;
+}
+
+#ka{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 565px;
+    font-size: 12px;
+}
+#ma{
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left: 400px;
+    font-size: 12px;
+}
+#ca{
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left: 565px;
+    font-size: 12px;
+}
+
+#sa{
+    color: #2162a1;
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    font-size: 13px;
+}
+
+
+
+#jeans{
+    display: flex;
+    position: absolute;
+    left: 400px;
+    width: 145.758px;
+    height: 115.852px;
+    
+}
+
+#tops{
+    display: flex;
+    position: absolute;
+    left: 565px;
+    width: 145.758px;
+    height: 115.852px;
+    
+}
+
+#dress{
+    display: flex;
+    position: absolute;
+    left: 400px;
+    width: 145.758px;
+    height: 115.852px;
+    top: 240px;
+}
+
+#shoes{
+    display: flex;
+    position: absolute;
+    left: 565px;
+    width: 145.758px;
+    height: 115.852px;
+    top: 240px;
+}
+
+
+
+.kitchen{
+    font-weight: bolder;
+    font-size: 21px;
+    width: 302.5px;
+    height: 27.297px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+#cooker{
+    display: flex;
+    position: absolute;
+    left: 760px;
+    top: 100px;
+    width: 306.81px;
+    height: 145.406px;
+}
+
+#coffee{
+    display: flex;
+    position: absolute;
+    left: 760px;
+    top: 275px;
+    width: 102.5px;
+    height: 75px;
+    
+}
+
+#pots{
+    display: flex;
+    position: absolute;
+    left: 870px;
+    top: 275px;
+    width: 95.5px;
+    height: 75px;
+}
+
+#kettles{
+    display: flex;
+    position: absolute;
+    left: 972px;
+    top: 275px;
+    width: 95.5px;
+    height: 75px;
+}
+
+#co{
+    display: flex;
+    position: absolute;
+    top: 246px;
+    left: 760px;
+    font-size: 15px;
+}
+
+#ci{
+    display: flex;
+    position: absolute;
+    top: 350px;
+    left: 760px;
+    font-size: 15px;
+}
+#po{
+    display: flex;
+    position: absolute;
+    top: 350px;
+    left: 870px;
+    font-size: 15px;
+}
+#ke{
+    display: flex;
+    position: absolute;
+    top: 350px;
+    left: 972px;
+    font-size: 15px;
+}
+
+#so{
+    color: #2162a1;
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 760px;
+    font-size: 13px;
+}
+
+.gg{
+    font-weight: bolder;
+    font-size: 21px;
+    width: 302.5px;
+    height: 27.297px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+#ggm{
+    display: flex;
+    position: absolute;
+    left: 1122px;
+    top: 75px;
+    width: 300.81px;
+    height: 300.406px;
+}
+
+#shh{
+    color: #2162a1;
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 1122px;
+    font-size: 13px;
+}
+
+
+
+
+.essentials{
+    font-weight: bolder;
+    font-size: 20.5px;
+    width: 302.5px;
+    height: 27.297px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+#cleaning{
+    display: flex;
+    position: absolute;
+    left: 45px;
+    top: 505px;
+    width: 145.758px;
+    height: 115.852px;
+    
+}
+
+#storage{
+    display: flex;
+    position: absolute;
+    top: 505px;
+    left: 205px;
+    width: 145.758px;
+    height: 115.852px;
+    
+}
+
+#decor{
+    display: flex;
+    position: absolute;
+    left: 45px;
+    width: 145.758px;
+    height: 115.852px;
+    top: 650px;
+}
+
+#bedding{
+    display: flex;
+    position: absolute;
+    left: 205px;
+    width: 145.758px;
+    height: 115.852px;
+    top: 650px;
+}
+
+#hee{
+    display: flex;
+    position: absolute;
+    top: 625px;
+    left: 45px;
+    font-size: 12px;
+}
+
+#kee{
+    display: flex;
+    position: absolute;
+    top: 625px;
+    left: 205px;
+    font-size: 12px;
+}
+#mee{
+    display: flex;
+    position: absolute;
+    top: 770px;
+    left: 45px;
+    font-size: 12px;
+}
+#cee{
+    display: flex;
+    position: absolute;
+    top: 770px;
+    left: 205px;
+    font-size: 12px;
+}
+
+#seee{
+    color: #2162a1;
+    display: flex;
+    position: absolute;
+    top: 830px;
+    left: 45px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+#haa{
+    display: flex;
+    position: absolute;
+    top: 625px;
+    left: 400px;
+    font-size: 12px;
+}
+
+#kaa{
+    display: flex;
+    position: absolute;
+    top: 625px;
+    left: 565px;
+    font-size: 12px;
+}
+#maa{
+    display: flex;
+    position: absolute;
+    top: 770px;
+    left: 400px;
+    font-size: 12px;
+}
+#caa{
+    display: flex;
+    position: absolute;
+    top: 770px;
+    left: 565px;
+    font-size: 12px;
+}
+
+#saa{
+    color: #2162a1;
+    display: flex;
+    position: absolute;
+    top: 830px;
+    left: 400px;
+    font-size: 13px;
+}
+
+
+
+#dine{
+    display: flex;
+    position: absolute;
+    top: 505px;
+    left: 400px;
+    width: 145.758px;
+    height: 115.852px;
+    
+}
+
+#improvements{
+    display: flex;
+    position: absolute;
+    top: 505px;
+    left: 565px;
+    width: 145.758px;
+    height: 115.852px;
+    
+}
+
+#deco{
+    display: flex;
+    position: absolute;
+    left: 400px;
+    width: 145.758px;
+    height: 115.852px;
+    top: 650px;
+}
+
+#bath{
+    display: flex;
+    position: absolute;
+    left: 565px;
+    width: 145.758px;
+    height: 115.852px;
+    top: 650px;
+}
+.arrivals{
+    font-weight: bolder;
+    font-size: 20.5px;
+    width: 302.5px;
+    height: 27.297px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.mothersday{
+    font-weight: bolder;
+    font-size: 21px;
+    width: 302.5px;
+    height: 27.297px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+#mdg{
+    display: flex;
+    position: absolute;
+    left: 762px;
+    top: 505px;
+    width: 300.81px;
+    height: 300.406px;
+}
+
+#ohoh{
+    color: #2162a1;
+    display: flex;
+    position: absolute;
+    top: 830px;
+    left: 762px;
+    font-size: 13px;
+}
+
+.toys{
+    font-weight: bolder;
+    font-size: 21px;
+    width: 302.5px;
+    height: 27.297px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+#toi{
+    display: flex;
+    position: absolute;
+    left: 1122px;
+    top: 505px;
+    width: 300.81px;
+    height: 300.406px;
+}
+
+#haha{
+    color: #2162a1;
+    display: flex;
+    position: absolute;
+    top: 830px;
+    left: 1122px;
+    font-size: 13px;
+}
+
+
+
+
+
+.personal{
+    display: flex;
+    position: absolute;
+    top: 1220px;
+    width: 100%;
+    height: 146px;
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    justify-content: center;
+}
+
+#para{
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    top: 30px;
+}
+
+.sbutton{
+    display: flex;
+    position: absolute;
+    top: 70px;
+}
+#ssb{
+    background-color: rgb(246, 192, 91);
+    border: none;
+    width: 212.953px;
+    height: 29px;
+    padding: 0px 10px 0px 11px;
+    border-radius: 14.5px 14.5px 14.5px 14.5px;
+}
+
+#ssb:hover{
+    background-color: rgb(255, 166, 0);
+}
+
+#neww{
+    display: flex;
+    position: absolute;
+    top: 105px;
+    font-size: 11px;
+}
+.sutton{
+    display: flex;
+    justify-content: center;
+}
+
+
+.back{
+    display: flex;
+    position: absolute;
+    top: 1368px;
+    width: 100%;
+    height: 19px;
+    padding: 15px 0px 15px 0px;
+    background-color: #354a57;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+}
+
+
+.bak{
+    display: flex;
+    position: absolute;
+    top: 1415px;
+    width: 100%;
+    height: 300px;
+    padding: 15px 0px 15px 0px;
+    background-color: #283141;
+    color: white;
+    font-size: 13px;
+}
+
+#getto{
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    top: 40px;
+    left: 240px;
+}
+
+#l1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    position: absolute;
+    font-size: 14px;
+    left: 200px;
+    top: 75px;
+    gap: 10px;
+    color: rgb(215, 211, 211);
+}
+
+
+
+#getto1{
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    top: 40px;
+    left: 480px;
+}
+
+#l2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    position: absolute;
+    font-size: 14px;
+    left: 440px;
+    top: 75px;
+    gap: 10px;
+    color: rgb(215, 211, 211);
+}
+
+#getto2{
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    top: 40px;
+    left: 800px;
+}
+
+#l3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    position: absolute;
+    font-size: 14px;
+    left: 760px;
+    top: 75px;
+    gap: 10px;
+    color: rgb(215, 211, 211);
+}
+
+#getto3{
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    top: 40px;
+    left: 1120px;
+}
+
+#l4{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    position: absolute;
+    font-size: 14px;
+    left: 1080px;
+    top: 75px;
+    gap: 10px;
+    color: rgb(215, 211, 211);
+}
+
+.footerlogo{
+    display: flex;
+    position: absolute;
+    width: 99.9%;
+    height: 88px;
+    background-color: #283141;
+    justify-content: center;
+    top: 1700px;
+    border-top: 1px solid #ddd;
+}
+
+#footerlogo{
+    position: absolute;
+    top: 40%;
+    width: 76px;
+    height: 27px;
+    display: flex;
+}
